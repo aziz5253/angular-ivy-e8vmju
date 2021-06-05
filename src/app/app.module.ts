@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { ClientComponent } from './client/client.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -13,7 +14,8 @@ import { ServersComponent } from './servers/servers.component';
     AppComponent,
     HelloComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+    ClientComponent
   ],
   bootstrap: [AppComponent]
 })
